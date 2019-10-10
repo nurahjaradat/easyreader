@@ -1,0 +1,22 @@
+Package: easyreader
+Title: Import a Dataset into R
+Version: 0.0.1
+Authors@R: 
+    person(given = "Nurah",
+           family = "Jaradat",
+           role = c("aut", "cre"),
+           email = "njaradat@wesleyan.edu")
+Description: Import data from Excel, text files, and 
+  statistical packages.
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+Imports: 
+    haven,
+    readxl,
+    vroom
+Suggests: 
+    knitr,
+    rmarkdown
+VignetteBuilder: knitr
+RoxygenNote: 6.1.1
